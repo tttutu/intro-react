@@ -1,6 +1,7 @@
 import React from "react";
 import Table from "./Table";
 /*Add import statement here*/
+import List from "./List";
 
 class App extends React.Component {
   constructor(props) {
@@ -67,7 +68,7 @@ class App extends React.Component {
         <List
           placeholder="Add Assignment..." 
           currList={this.state.assignments}
-          addFunction={this.addAssignment}
+          addFunction={this.addAssignment}git 
           title="Student Roster"
         />
       );
